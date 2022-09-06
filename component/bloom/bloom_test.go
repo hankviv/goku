@@ -15,4 +15,13 @@ func Test_Add(t *testing.T) {
 }
 
 func Test_Exists(t *testing.T) {
+
+	var a uint64
+	a = 18446744073709551615
+
+	fmt.Println(a)
+	b := time.Now().UnixMilli()
+
+	fmt.Println(b)
+
 }
